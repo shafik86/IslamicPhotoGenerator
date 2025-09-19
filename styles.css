@@ -295,4 +295,69 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 10px;
     }
+
+}
+
+.apps-download {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #ecf0f1;
+}
+
+.apps-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.app-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    min-width: 200px;
+}
+
+.app-link:hover {
+    background: #e3f2fd;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);
+}
+
+.app-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.app-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.app-name {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1em;
+}
+
+.app-desc {
+    font-size: 0.85em;
+    color: #7f8c8d;
+}
+
+.hidden {
+    display: none;
 }
