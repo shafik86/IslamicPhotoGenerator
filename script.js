@@ -410,21 +410,7 @@ let currentData = {
 			} catch (error) {
 				console.error('Error fetching prayer times:', error);
 				// fallback kalau API down
-				return {
-					times: {
-						'Imsak': '05:30',
-						'Subuh': '05:45',
-						'Syuruk': '07:05',
-						'Dhuha': '07:30',
-						'Zohor': '13:15',
-						'Asar': '16:30',
-						'Maghrib': '19:20',
-						'Isyak': '20:35'
-					},
-					hijriDate: "1447-03-27", // static contoh
-					date: new Date().toLocaleDateString('en-CA'),
-					day: new Date().toLocaleDateString('en-US', { weekday: 'long' })
-				};
+				await fetchPrayerTimes();
 			}
 		}
 
