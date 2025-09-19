@@ -111,7 +111,68 @@ let currentData = {
                 title: "Hadis tentang Kasih Sayang",
                 text: "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ - Orang-orang yang penyayang akan disayangi oleh Allah Yang Maha Penyayang.",
                 source: "HR. Tirmidzi"
-            }
+            },
+			{
+			    id: 11,
+			    title: "Hadis tentang Sabar",
+			    text: "وَاللَّهُ مَعَ الصَّابِرِينَ - Dan Allah bersama orang-orang yang sabar.",
+			    source: "Surah Al-Baqarah, 2:153"
+			},
+			{
+			    id: 12,
+			    title: "Hadis tentang Harapan",
+			    text: "لاَ تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ - Jangan kamu berputus asa dari rahmat Allah.",
+			    source: "Surah Az-Zumar, 39:53"
+			},
+			{
+			    id: 13,
+			    title: "Hadis tentang Konsistensi",
+			    text: "أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ - Amalan paling dicintai Allah ialah yang berterusan walaupun sedikit.",
+			    source: "HR. Bukhari & Muslim"
+			},
+			{
+			    id: 14,
+			    title: "Hadis tentang Memberi Manfaat",
+			    text: "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ - Sebaik-baik manusia ialah yang paling bermanfaat kepada orang lain.",
+			    source: "HR. Thabrani"
+			},
+			{
+			    id: 15,
+			    title: "Hadis tentang Doa",
+			    text: "الدُّعَاءُ سِلَاحُ الْمُؤْمِنِ - Doa adalah senjata orang beriman.",
+			    source: "HR. Hakim"
+			},
+			{
+			    id: 16,
+			    title: "Hadis tentang Menolong Sesama",
+			    text: "وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ - Allah akan menolong hamba-Nya selagi hamba itu menolong saudaranya.",
+			    source: "HR. Muslim"
+			},
+			{
+			    id: 17,
+			    title: "Hadis tentang Hati yang Lembut",
+			    text: "أَطْعِمِ الْمِسْكِينَ وَامْسَحْ رَأْسَ الْيَتِيمِ - Berilah makan kepada miskin dan usap kepala anak yatim.",
+			    source: "HR. Ahmad"
+			},
+			{
+			    id: 18,
+			    title: "Hadis tentang Pahala Kebaikan",
+			    text: "فِي كُلِّ كَبِدٍ رَطْبَةٍ أَجْرٌ - Pada setiap makhluk hidup yang kamu beri manfaat, ada pahala.",
+			    source: "HR. Bukhari"
+			},
+			{
+			    id: 19,
+			    title: "Hadis tentang Nilai Kecil",
+			    text: "لاَ تَحْقِرَنَّ مِنَ الْمَعْرُوفِ شَيْئًا - Jangan meremehkan kebaikan walaupun sedikit.",
+			    source: "HR. Muslim"
+			},
+			{
+			    id: 20,
+			    title: "Hadis tentang Cahaya Sabar",
+			    text: "وَالصَّبْرُ ضِيَاءٌ - Sabar itu adalah cahaya.",
+			    source: "HR. Muslim"
+			}
+
         ];
 
         const sampleDoa = [
@@ -184,7 +245,78 @@ let currentData = {
                 arabic: "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
                 text: "Bismika Allahumma amutu wa ahya",
                 meaning: "Dengan nama-Mu ya Allah, aku mati dan aku hidup."
-            }
+            },
+			{
+			    id: 11,
+			    title: "Doa Mohon Ampun",
+			    arabic: "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ",
+			    text: "Astaghfirullaha al-‘azhim",
+			    meaning: "Aku memohon ampun kepada Allah Yang Maha Agung."
+			},
+			{
+			    id: 12,
+			    title: "Doa Tolak Musibah",
+			    arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الْأَسْقَامِ",
+			    text: "Allahumma inni a‘udzu bika minal-barasi wal-jununi wal-judzami wa min sayyi’il-asqam",
+			    meaning: "Ya Allah, aku berlindung kepada-Mu daripada penyakit sopak, gila, kusta, dan penyakit-penyakit buruk yang lain."
+			},
+			{
+			    id: 13,
+			    title: "Doa Perlindungan Pagi",
+			    arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ",
+			    text: "Allahumma inni as’aluka al-‘afiyata fid-dunya wal-akhirah",
+			    meaning: "Ya Allah, aku memohon kepada-Mu keselamatan dan kesejahteraan di dunia dan akhirat."
+			},
+			{
+			    id: 14,
+			    title: "Doa Tenangkan Hati",
+			    arabic: "رَبِّ اشْرَحْ لِي صَدْرِي",
+			    text: "Rabbi ishrah li sadri",
+			    meaning: "Ya Tuhanku, lapangkanlah dadaku."
+			},
+			{
+			    id: 15,
+			    title: "Doa Mohon Petunjuk",
+			    arabic: "اللَّهُمَّ اهْدِنِي وَسَدِّدْنِي",
+			    text: "Allahumma ihdini wa saddidni",
+			    meaning: "Ya Allah, tunjukilah aku dan luruskanlah aku."
+			},
+			{
+			    id: 16,
+			    title: "Doa Elak Hasad",
+			    arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+			    text: "Allahumma inni a‘udzu bika min sharri hasidin idha hasad",
+			    meaning: "Ya Allah, aku berlindung kepada-Mu dari kejahatan orang yang dengki ketika dia dengki."
+			},
+			{
+			    id: 17,
+			    title: "Doa Mohon Rezeki Halal",
+			    arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِزْقًا طَيِّبًا",
+			    text: "Allahumma inni as’aluka rizqan tayyiban",
+			    meaning: "Ya Allah, aku memohon kepada-Mu rezeki yang baik dan halal."
+			},
+			{
+			    id: 18,
+			    title: "Doa Elak Lupa & Lalai",
+			    arabic: "اللَّهُمَّ اجْعَلْنِي مِنَ الذَّاكِرِينَ",
+			    text: "Allahumma aj‘alni minaz-zakirin",
+			    meaning: "Ya Allah, jadikanlah aku dari kalangan orang yang sentiasa mengingati-Mu."
+			},
+			{
+			    id: 19,
+			    title: "Doa Mohon Kekuatan",
+			    arabic: "اللَّهُمَّ قَوِّنِي فِي دِينِكَ",
+			    text: "Allahumma qawwini fi dinik",
+			    meaning: "Ya Allah, kuatkanlah aku dalam agama-Mu."
+			},
+			{
+			    id: 20,
+			    title: "Doa Mohon Husnul Khatimah",
+			    arabic: "اللَّهُمَّ اخْتِمْ لَنَا بِالْخَيْرِ",
+			    text: "Allahumma ikhtim lana bil-khayr",
+			    meaning: "Ya Allah, akhirilah hidup kami dengan kebaikan."
+			}
+
         ];
 
         const illustrationOptions = [
@@ -202,7 +334,32 @@ let currentData = {
                 id: 3,
                 title: "Pemandangan Alam",
                 description: "Pemandangan sunrise/sunset dengan siluet masjid, nuansa hangat orange dan ungu"
-            }
+            },
+			{
+			    id: 4,
+			    title: "Langit Bertabur Doa",
+			    description: "Ilustrasi tangan yang menadah doa di bawah langit malam bertabur bintang, dengan cahaya lembut bulan purnama dan aura ketenangan"
+			},
+			{
+			    id: 5,
+			    title: "Taman Syurga",
+			    description: "Visual taman hijau dengan air mengalir, burung berterbangan dan cahaya matahari menembusi pepohon—simbol ketenangan dan rahmat"
+			},
+			{
+			    id: 6,
+			    title: "Kaligrafi Asmaul Husna",
+			    description: "Susunan nama-nama Allah dalam bentuk bulatan kaligrafi emas di atas latar biru gelap, dengan corak bintang dan cahaya spiritual"
+			},
+			{
+			    id: 7,
+			    title: "Jalan Menuju Cahaya",
+			    description: "Ilustrasi jalan berbatu menuju masjid di kejauhan, dengan cahaya mentari pagi menyinari laluan—simbol perjalanan rohani"
+			},
+			{
+			    id: 8,
+			    title: "Silhouette Solat Subuh",
+			    description: "Bayangan seorang lelaki sedang solat di atas bukit ketika Subuh, dengan latar langit biru keunguan dan awan yang tenang"
+			}
         ];
 
         function getCurrentDateTime() {
@@ -223,65 +380,112 @@ let currentData = {
             
             return `${dateStr} - ${timeStr}`;
         }
+		async function fetchPrayerTimes(zone) {
+			try {
+				const response = await fetch(
+					`https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=today&zone=${zone}`
+				);
+				const data = await response.json();
+		
+				if (data.status === "OK!" && data.prayerTime && data.prayerTime.length > 0) {
+					const prayer = data.prayerTime[0];
+					return {
+						times: {
+							'Imsak': prayer.imsak,
+							'Subuh': prayer.fajr,
+							'Syuruk': prayer.syuruk,
+							'Dhuha': prayer.dhuha,
+							'Zohor': prayer.dhuhr,
+							'Asar': prayer.asr,
+							'Maghrib': prayer.maghrib,
+							'Isyak': prayer.isha
+						},
+						hijriDate: prayer.hijri,   // terus ambil dari API
+						date: prayer.date,
+						day: prayer.day
+					};
+				} else {
+					throw new Error('Invalid API response');
+				}
+			} catch (error) {
+				console.error('Error fetching prayer times:', error);
+				// fallback kalau API down
+				return {
+					times: {
+						'Imsak': '05:30',
+						'Subuh': '05:45',
+						'Syuruk': '07:05',
+						'Dhuha': '07:30',
+						'Zohor': '13:15',
+						'Asar': '16:30',
+						'Maghrib': '19:20',
+						'Isyak': '20:35'
+					},
+					hijriDate: "1447-03-27", // static contoh
+					date: new Date().toLocaleDateString('en-CA'),
+					day: new Date().toLocaleDateString('en-US', { weekday: 'long' })
+				};
+			}
+		}
 
-        async function fetchPrayerTimes(zone) {
-            try {
-                const response = await fetch(`https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=today&zone=${zone}`);
-                const data = await response.json();
+        // async function fetchPrayerTimes(zone) {
+        //     try {
+        //         const response = await fetch(`https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=today&zone=${zone}`);
+        //         const data = await response.json();
                 
-                if (data.status === "OK!" && data.prayerTime && data.prayerTime.length > 0) {
-                    const prayer = data.prayerTime[0];
-                    return {
-                        times: {
-                            'Subuh': prayer.fajr,
-                            'Syuruk': prayer.syuruk,
-                            'Zohor': prayer.dhuhr,
-                            'Asar': prayer.asr,
-                            'Maghrib': prayer.maghrib,
-                            'Isyak': prayer.isha
-                        },
-                        hijriDate: prayer.hijri,
-                        date: prayer.date
-                    };
-                } else {
-                    throw new Error('Invalid API response');
-                }
-            } catch (error) {
-                console.error('Error fetching prayer times:', error);
-                // Fallback to sample data if API fails
-                return {
-                    times: {
-                        'Subuh': '05:45',
-                        'Syuruk': '07:05',
-                        'Zohor': '13:15',
-                        'Asar': '16:30',
-                        'Maghrib': '19:20',
-                        'Isyak': '20:35'
-                    },
-                    hijriDate: getHijriDate(),
-                    date: new Date().toLocaleDateString('en-CA')
-                };
-            }
-        }
+        //         if (data.status === "OK!" && data.prayerTime && data.prayerTime.length > 0) {
+        //             const prayer = data.prayerTime[0];
+        //             return {
+        //                 times: {
+        //                     'Subuh': prayer.fajr,
+        //                     'Syuruk': prayer.syuruk,
+        //                     'Zohor': prayer.dhuhr,
+        //                     'Asar': prayer.asr,
+        //                     'Maghrib': prayer.maghrib,
+        //                     'Isyak': prayer.isha
+        //                 },
+        //                 hijriDate: prayer.hijri,
+        //                 date: prayer.date
+        //             };
+        //         } else {
+        //             throw new Error('Invalid API response');
+        //         }
+        //     } catch (error) {
+        //         console.error('Error fetching prayer times:', error);
+        //         // Fallback to sample data if API fails
+        //         return {
+        //             times: {
+        //                 'Subuh': '05:45',
+        //                 'Syuruk': '07:05',
+        //                 'Zohor': '13:15',
+        //                 'Asar': '16:30',
+        //                 'Maghrib': '19:20',
+        //                 'Isyak': '20:35'
+        //             },
+        //             hijriDate: getHijriDate(),
+        //             date: new Date().toLocaleDateString('en-CA')
+        //         };
+        //     }
+        // }
 
-        function getHijriDate() {
-            // Simple Hijri date calculation (fallback only)
-            const gregorianDate = new Date();
-            const hijriYear = Math.floor(((gregorianDate.getFullYear() - 622) * 365.25) / 354.36667) + 1;
+        // function getHijriDate() {
+        //     // Simple Hijri date calculation (fallback only)
+        //     const gregorianDate = new Date();
+        //     const hijriYear = Math.floor(((gregorianDate.getFullYear() - 622) * 365.25) / 354.36667) + 1;
             
-            const hijriMonths = [
-                'Muharram', 'Safar', 'Rabi\'ul Awwal', 'Rabi\'ul Akhir',
-                'Jumadil Awwal', 'Jumadil Akhir', 'Rejab', 'Sya\'ban',
-                'Ramadan', 'Syawal', 'Zulkaedah', 'Zulhijjah'
-            ];
+        //     const hijriMonths = [
+        //         'Muharram', 'Safar', 'Rabi\'ul Awwal', 'Rabi\'ul Akhir',
+        //         'Jumadil Awwal', 'Jumadil Akhir', 'Rejab', 'Sya\'ban',
+        //         'Ramadan', 'Syawal', 'Zulkaedah', 'Zulhijjah'
+        //     ];
             
-            // Approximate calculation
-            const dayOfYear = Math.floor((gregorianDate - new Date(gregorianDate.getFullYear(), 0, 0)) / 86400000);
-            const hijriMonth = Math.floor((dayOfYear * 12) / 354) % 12;
-            const hijriDay = Math.floor(dayOfYear / 29.5) % 30 + 1;
+        //     // Approximate calculation
+        //     const dayOfYear = Math.floor((gregorianDate - new Date(gregorianDate.getFullYear(), 0, 0)) / 86400000);
+        //     const hijriMonth = Math.floor((dayOfYear * 12) / 354) % 12;
+        //     const hijriDay = Math.floor(dayOfYear / 29.5) % 30 + 1;
             
-            return `${hijriDay} ${hijriMonths[hijriMonth]} ${hijriYear}H`;
-        }
+        //     return `${hijriDay} ${hijriMonths[hijriMonth]} ${hijriYear}H`;
+        // }
 
         async function getAllData() {
             // Show loading
@@ -494,12 +698,16 @@ let currentData = {
 • Spesifikasi Design:
   - Saiz: 1080x1080 (Instagram square)
   - Warna: Harmoni sesuai tema ilustrasi
-  - Font: Readable dan profesional
-  - Layout: Balanced dan mudah dibaca
-  - Tulisan: Jelas dan kemas
-  - Elemen: Include geometric patterns atau islamic motifs
-  - Mood: Inspiring dan spiritual
-  - Kedua-dua tarikh (Masehi & Hijriah) mesti dipaparkan dengan jelas`;
+  - Font: Profesional, mudah dibaca
+  - Layout: Seimbang, kemas, dan jelas
+  - Elemen: Motif Islamik, corak geometri, kaligrafi sabar
+  - Mood: Inspirasi, spiritual, tenang
+  - Keutamaan: Paparan jelas untuk tarikh Masehi & Hijriah
+
+• Arahan tambahan
+  - Gabungkan elemen spiritual dan elegan dalam satu poster harian. Pastikan waktu solat tersusun, 
+    hadis dan doa ditonjolkan secara visual, dan tarikh dipaparkan dengan jelas. 
+    Gunakan warna hijau emerald dan emas untuk suasana tenang dan ilham. Fokus pada keseimbangan layout dan kejelasan mesej.`;
 
             document.getElementById('prompt-textarea').value = prompt.trim();
             document.getElementById('prompt-section').classList.remove('hidden');
