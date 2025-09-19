@@ -705,7 +705,7 @@ let currentData = {
 
 • Waktu Solat:
   - Subuh: ${currentData.prayerTimes.Subuh}
-  - Syuruk: ${currentData.prayerTimes.Syuruk}  
+  - Syuruk: ${currentData.prayerTimes.Syuruk}
   - Zohor: ${currentData.prayerTimes.Zohor}
   - Asar: ${currentData.prayerTimes.Asar}
   - Maghrib: ${currentData.prayerTimes.Maghrib}
@@ -713,7 +713,9 @@ let currentData = {
 
 • Hadis Pilihan:
   - Tajuk: ${currentData.selectedHadith.title}
-  - Teks: ${currentData.selectedHadith.text}
+  - Arab: ${currentData.selectedHadith.text}
+  - Rumi: ${currentData.selectedHadith.transliteration}
+  - Maksud: ${currentData.selectedHadith.translation}
   - Sumber: ${currentData.selectedHadith.source}
 
 • Doa Pilihan:
@@ -726,17 +728,18 @@ let currentData = {
 
 • Spesifikasi Design:
   - Saiz: 1080x1080 (Instagram square)
-  - Warna: Harmoni sesuai tema ilustrasi
-  - Font: Profesional, mudah dibaca
-  - Layout: Seimbang, kemas, dan jelas
-  - Elemen: Motif Islamik, corak geometri, kaligrafi sabar
-  - Mood: Inspirasi, spiritual, tenang
-  - Keutamaan: Paparan jelas untuk tarikh Masehi & Hijriah
+  - Warna: harmoni & konsisten dengan tema ilustrasi
+  - Font: profesional, jelas, mudah dibaca
+  - Layout: seimbang, kemas, dan teratur
+  - Elemen: motif Islamik, corak geometri, kaligrafi sabar
+  - Mood: inspirasi, spiritual, tenang
+  - Keutamaan: tarikh Masehi & Hijriah dipaparkan dengan jelas
 
-• Arahan tambahan
-  - Gabungkan elemen spiritual dan elegan dalam satu poster harian. Pastikan waktu solat tersusun, 
-    hadis dan doa ditonjolkan secara visual, dan tarikh dipaparkan dengan jelas. 
-    Gunakan warna hijau emerald dan emas untuk suasana tenang dan ilham. Fokus pada keseimbangan layout dan kejelasan mesej.`;
+• Arahan tambahan:
+  - Gabungkan elemen spiritual dan elegan dalam satu poster harian.  
+  - Pastikan waktu solat tersusun kemas.  
+  - Hadis dan doa ditonjolkan dengan jelas dan seimbang.  
+  - Fokus pada keseimbangan visual dan mesej yang mudah difahami.`;
 
             document.getElementById('prompt-textarea').value = prompt.trim();
             document.getElementById('prompt-section').classList.remove('hidden');
