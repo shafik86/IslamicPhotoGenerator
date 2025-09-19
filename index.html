@@ -77,7 +77,21 @@
                     Copy maklumat dibawah dan paste pada ChatGPT atau Copilot. Ubah gaya illustrasi mengikut pilihan.
                 </p>
                 
-                <!-- Mobile Apps Download Section -->
+                
+
+            <!-- AI Prompt Display -->
+            <div id="prompt-section" class="hidden">
+                <div class="prompt-container">
+                    <h4 style="margin-bottom: 15px;">📝 Prompt AI untuk Poster:</h4>
+                    <textarea id="prompt-textarea" class="prompt-textarea" placeholder="Prompt akan dipaparkan di sini..."></textarea>
+                    <div class="prompt-actions">
+                        <button class="btn btn-small" onclick="copyPrompt()">📋 Copy</button>
+                        <button class="btn btn-small" onclick="editPrompt()">✏️ Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+			<!-- Mobile Apps Download Section -->
                 <div class="apps-download">
                     <h4 style="text-align: center; margin: 20px 0 15px 0; color: #2c3e50;">📱 Download Mobile Apps</h4>
                     <div class="apps-container">
@@ -99,19 +113,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- AI Prompt Display -->
-            <div id="prompt-section" class="hidden">
-                <div class="prompt-container">
-                    <h4 style="margin-bottom: 15px;">📝 Prompt AI untuk Poster:</h4>
-                    <textarea id="prompt-textarea" class="prompt-textarea" placeholder="Prompt akan dipaparkan di sini..."></textarea>
-                    <div class="prompt-actions">
-                        <button class="btn btn-small" onclick="copyPrompt()">📋 Copy</button>
-                        <button class="btn btn-small" onclick="editPrompt()">✏️ Edit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="script.js">
@@ -120,4 +121,5 @@
 </body>
 
 </html>
+
 
