@@ -613,25 +613,54 @@ let currentData = {
             window.currentRandomDoa = randomDoa;
         }
 
-        function displayIllustrationChoices() {
-            const container = document.getElementById('illustration-choices');
-            container.innerHTML = '';
+		function displayIllustrationChoices() {
+		    const container = document.getElementById('illustration-choices');
+		    container.innerHTML = '';
+		    
+		    // Shuffle & ambil 3 random illustration
+		    const shuffled = [...illustrationOptions].sort(() => 0.5 - Math.random());
+		    const randomIllustrations = shuffled.slice(0, 3);
+		
+		    randomIllustrations.forEach((illustration, index) => {
+		        const div = document.createElement('div');
+		        div.className = 'choice-item';
+		        div.innerHTML = `
+		            <label class="radio-label">
+		                <input type="radio" name="illustration" value="${illustration.id}" 
+		                       class="radio-input" 
+		                       onchange="selectIllustration(${illustration.id}, ${index})">
+		                <div class="choice-content">
+		                    <div class="choice-title">${illustration.title}</div>
+		                    <div class="choice-text">${illustration.description}</div>
+		                </div>
+		            </label>
+		        `;
+		        container.appendChild(div);
+		    });
+		
+		    // Simpan untuk guna kemudian
+		    window.currentRandomIllustrations = randomIllustrations;
+		}
+
+        // function displayIllustrationChoices() {
+        //     const container = document.getElementById('illustration-choices');
+        //     container.innerHTML = '';
             
-            illustrationOptions.forEach(illustration => {
-                const div = document.createElement('div');
-                div.className = 'choice-item';
-                div.innerHTML = `
-                    <label class="radio-label">
-                        <input type="radio" name="illustration" value="${illustration.id}" class="radio-input" onchange="selectIllustration(${illustration.id})">
-                        <div class="choice-content">
-                            <div class="choice-title">${illustration.title}</div>
-                            <div class="choice-text">${illustration.description}</div>
-                        </div>
-                    </label>
-                `;
-                container.appendChild(div);
-            });
-        }
+        //     illustrationOptions.forEach(illustration => {
+        //         const div = document.createElement('div');
+        //         div.className = 'choice-item';
+        //         div.innerHTML = `
+        //             <label class="radio-label">
+        //                 <input type="radio" name="illustration" value="${illustration.id}" class="radio-input" onchange="selectIllustration(${illustration.id})">
+        //                 <div class="choice-content">
+        //                     <div class="choice-title">${illustration.title}</div>
+        //                     <div class="choice-text">${illustration.description}</div>
+        //                 </div>
+        //             </label>
+        //         `;
+        //         container.appendChild(div);
+        //     });
+        // }
 
         function selectHadith(id, index) {
             currentData.selectedHadith = window.currentRandomHadith[index];
